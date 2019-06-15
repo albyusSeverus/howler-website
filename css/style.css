@@ -1,0 +1,128 @@
+*,html body
+{
+    margin:0;
+    padding:0;
+}
+header
+{
+height: 130px;
+line-height: 130px;
+position:fixed;
+z-index: 2;
+width:100%;
+}
+body
+{
+    height:100px;
+}
+.second
+{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgb(39, 38, 38) 100%);
+    box-shadow: darkslategray;
+    transition: all 0.8s ease-in;
+}
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    display: inline-block;
+}
+.navi
+{
+    float:right;
+}
+.logoimg
+{
+    position:absolute;
+    height:100px;
+    width: 200px;
+    margin: 34px 0px 0px 36px;
+}
+nav ul li a
+{
+    padding-right: 30px;
+    font-weight: bold;
+    color:white;
+    transition: all 0.5s ease-in;
+}
+
+nav ul li a:hover
+{
+    text-decoration: none;
+    color: brown;
+}
+
+.desc1
+{
+    font-size: 50px;
+    border: white;
+    font-family: 'Yellowtail', cursive;
+}
+.sumesh
+{
+
+    background-image: linear-gradient(to bottom, rgba(2, 2, 2, 0) 0, #fff 100%) ,url(../Img/slide1.jpg);
+}
+.switch:hover
+{
+background-color: dimgrey;
+}
+.slidecap
+{
+    position: absolute;
+    top: 40%;
+    
+}
+.slider
+{
+    height: 1000px;
+    overflow: hidden;
+}
+.icons
+{
+    margin-right: 10px;
+    font-size: 30px;
+}
+.buttons
+{
+    color: #fff;
+    position:absolute;
+    left: 41%;
+    margin-top: 30px;
+    
+}
+
+.paralax
+{
+    background:linear-gradient(to bottom, rgba(141, 94, 94, 0) 0, rgb(68, 67, 67) 100%),
+     url("../Img/para1.1.jpg");
+    height:1000px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paralaxtext
+{
+    box-sizing: content-box;
+    color:whitesmoke;
+    text-align: center;
+    width: 462px;
+    position: absolute;
+    margin:28% 46% 28% 35%;
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    border-radius:100px;
+
+}
+.container
+{
+    max-width:100%;
+    padding-left: 0px;
+    padding-right: 0;
+}
