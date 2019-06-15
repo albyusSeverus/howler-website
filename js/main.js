@@ -18,13 +18,6 @@ jQuery(document).ready(function()
             $(".paralaxtext").addClass('bounceInLeft');
 
         }
-        else
-        if ($(".paralaxtext").hasClass('bounceInLeft'))
-        {
-            $(".paralaxtext").removeClass('bounceInLeft')
-        }
-
-
     });
 
 
