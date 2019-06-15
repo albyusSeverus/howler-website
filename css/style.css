@@ -1,19 +1,22 @@
-*,html body
+*,html 
 {
     margin:0;
     padding:0;
+    
 }
 header
 {
-height: 130px;
+
 line-height: 130px;
 position:fixed;
-z-index: 2;
+z-index: 100;
 width:100%;
 }
 body
 {
-    height:100px;
+    height:100%;
+    margin:0;
+    padding:0;
 }
 .second
 {
@@ -78,7 +81,7 @@ background-color: dimgrey;
 }
 .slider
 {
-    height: 1000px;
+    height: 100%;
     overflow: hidden;
 }
 .icons

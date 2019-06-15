@@ -13,7 +13,7 @@ jQuery(document).ready(function()
         {
            $("header").removeClass('second');
         }
-        if(top>=910)
+        if(top>=350)
         {
             $(".paralaxtext").addClass('bounceInLeft');
 
